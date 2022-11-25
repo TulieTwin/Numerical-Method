@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.NaviBar{
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.NavLogo{
+  color:cyan;
+  font-weight: bold;
+}
+
+.footer-container {
+  width: 100%;
+  position: fixed;
+  padding: 5px 0px 5px 0px;
+  background-color: #333;
+  color: white;
+  bottom: 0;
+}
+
+.bodyComponent{
+  text-align: center;
+  margin: auto;
+}
+
+.headerName{
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.NumberFill{
+  width: 80px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.FnFill{
+  width: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+
+.buttonGet{
+  display: inline-block;
+  cursor: pointer;
+  padding: 7px 15px 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.buttonGet:hover {
+  background-color: darkgray;
+}
+
+.buttonGet:active {
+  color: black;
+  background-color: lightgray;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.ShowXM{
+  text-align: center;
+  margin-top: 50;
+  margin-bottom: 50;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chart{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.TextCenter{
+  text-align: center;
+  margin-top: 300px;
+}
